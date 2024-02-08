@@ -117,10 +117,16 @@ section#hero {
     border: 1px solid;
 }
 
-.bio{
-    display: flex;
-    margin-left: 20rem;
-    margin-right: 20rem;
-    
-    
+@media (min-width:320px){
+    .bio{
+        margin: 0px;
+    }
 }
+
+@media (min-width:720px){
+    .bio{
+        margin-left: 480px;
+        max-width: 400px;
+    }
+}
+
