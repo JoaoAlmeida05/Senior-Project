@@ -109,5 +109,16 @@ section#hero {
     align-items: center;
     justify-content: center;
     gap: 2rem;
+    text-decoration: underline;
+    margin: 1rem;
 }
 
+#hero2 img{
+    border: 1px solid;
+}
+
+.bio{
+    margin-left: 27rem;
+    max-width: 500px;
+    
+}
