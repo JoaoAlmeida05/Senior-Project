@@ -118,7 +118,9 @@ section#hero {
 }
 
 .bio{
-    margin-left: 27rem;
-    max-width: 500px;
+    display: flex;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    
     
 }
