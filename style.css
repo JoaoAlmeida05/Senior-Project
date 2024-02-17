@@ -142,6 +142,9 @@ section#hero {
         flex-wrap: wrap;
         margin-top: 75px;
     }
+    .color{
+        height: 1000px;
+    }
     
 }
 
