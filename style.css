@@ -142,7 +142,7 @@ section#hero {
         flex-wrap: wrap;
     }
     .one .two {
-        padding: 0px 10px 0 10px;
+        margin: 0px 10px 0 10px;
     }
 }
 
