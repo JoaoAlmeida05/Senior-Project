@@ -140,7 +140,9 @@ section#hero {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-
+    }
+    .one .two {
+        padding: 0px 10px 0 10px;
     }
 }
 
