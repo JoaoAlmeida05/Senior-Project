@@ -121,6 +121,9 @@ section#hero {
     .bio{
         margin: 1rem;
     }
+    .hero3{
+        margin: 1rem;
+    }
 }
 
 @media (min-width:720px){
@@ -130,3 +133,34 @@ section#hero {
     }
 }
 
+.one{
+    grid-area: one;
+    max-width: 450px;
+
+}
+.two{
+    grid-area: two;
+    margin-left: 1rem;
+    max-width: 500px;
+    
+}
+
+#Research{
+    display: grid;
+    align-content: start;
+    justify-content: center;
+    column-gap: 8rem;
+    margin-top: 209px;
+    grid-template-rows: 2rem;
+    grid-template-columns: 33% 33% ;
+    grid-template-areas: "two one one ";
+    
+}
+
+.color{
+    background-color: #0000004f;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -5;
+}
