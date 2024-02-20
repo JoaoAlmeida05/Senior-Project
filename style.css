@@ -128,16 +128,14 @@ section#hero {
     .bio{
         margin: 1rem;
     }
-    .hero3{
-        margin: 1rem;
-    }
+    
     #Research{
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
         margin-top: 75px;
         background-color: var(--overlay);
-        height: 500%;
+        height: 300%;
     }
     #Research p{
         background-color: white;
