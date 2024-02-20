@@ -125,6 +125,9 @@ section#hero {
 }
 
 @media (min-width:320px){
+    .container{
+        margin-left: 20px;
+    }
     .bio{
         margin: 1rem;
         background-color: white;
@@ -133,7 +136,6 @@ section#hero {
     }
     
     #Research{
-        margin-top: -100px;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
