@@ -126,7 +126,7 @@ section#hero {
 
 @media (min-width:320px){
     .container{
-        margin-left: 20px;
+        margin: 20px;
     }
     .bio{
         margin: 1rem;
