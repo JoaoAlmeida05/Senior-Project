@@ -127,9 +127,13 @@ section#hero {
 @media (min-width:320px){
     .bio{
         margin: 1rem;
+        background-color: white;
+        border: 1px solid;
+        padding: 10px;
     }
     
     #Research{
+        margin-top: -50px;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
@@ -167,7 +171,7 @@ section#hero {
         grid-template-areas: "two one one ";
     }
 
-    #Research > h4, p {
+    #Research > p {
         background: white;
         border: 1px solid;
         padding: 10px;
@@ -176,7 +180,6 @@ section#hero {
     .one{
         grid-area: one;
         max-width: 450px;
-        
     }
     .two{
         grid-area: two;
