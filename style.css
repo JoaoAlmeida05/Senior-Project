@@ -4,6 +4,7 @@
 :root {
     --titles-font: "Young Serif", serif;
     --rest-font: "Roboto", sans-serif;
+    --overlay: #0000004f;
 }
 
 body {
@@ -75,7 +76,7 @@ section#hero div.overlay {
     inset: 0;
     width: 100%;
     height: 100%;
-    background-color: #0000004f;
+    background-color: var(--overlay);
     z-index: -5;
 }
 
@@ -94,6 +95,12 @@ section#hero div.container {
 
 section#hero {
     border: 1px solid black;
+}
+
+#hero h1, h2{
+    background-color: white;
+    border: 1px solid;
+    padding: 10px;
 }
 
 .box {
@@ -124,62 +131,61 @@ section#hero {
     .hero3{
         margin: 1rem;
     }
-}
-
-@media (min-width:720px){
-    .bio{
-        margin-left: 480px;
-        max-width: 400px;
-    }
-}
-
-
-
-@media (min-width:320px){
     #Research{
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
         margin-top: 75px;
+        background-color: var(--overlay);
+        height: 500%;
     }
-    .color{
-        height: 1000px;
+    #Research p{
+        background-color: white;
+        border: 1px solid;
+        margin: 10px;
+        padding: 10px;
     }
     
 }
 
 @media (min-width:720px){
-    
+
+    .bio{
+        margin-left: 480px;
+        max-width: 400px;
+        background-color: white;
+        border: 1px solid;
+        padding: 10px;
+    }
+
     #Research{
         display: grid;
         align-content: start;
         justify-content: center;
         column-gap: 8rem;
-        margin-top: 209px;
+        margin-top: 166px;
         grid-template-rows: 2rem;
         grid-template-columns: 33% 33% ;
         grid-template-areas: "two one one ";
-        
     }
+
+    #Research > h4, p {
+        background: white;
+        border: 1px solid;
+        padding: 10px;
+    }
+
     .one{
         grid-area: one;
         max-width: 450px;
-
+        
     }
     .two{
         grid-area: two;
         margin-left: 1rem;
-        max-width: 500px;
-        
+        max-width: 500px;        
     }
 }
 
 
-.color{
-    background-color: #0000004f;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: -5;
-}
 
