@@ -125,9 +125,7 @@ section#hero {
 }
 
 @media (min-width:320px){
-    .container{
-        margin: 20px;
-    }
+    
     .bio{
         margin: 1rem;
         background-color: white;
