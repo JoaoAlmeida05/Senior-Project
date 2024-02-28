@@ -138,9 +138,7 @@ section#hero {
         margin-left: -33px;
         padding: 0px;
     }
-    .overlay{
-        min-width: 150%;
-    }
+    
     .bio{
         margin: 1rem;
         background-color: white;
