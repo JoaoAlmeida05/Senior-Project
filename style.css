@@ -125,7 +125,20 @@ section#hero {
 }
 
 @media (min-width:320px){
-    
+    body{
+        max-width: 100vw;
+    }
+    #hero2 img{
+        margin-left: -25px;
+    }
+    .name{
+        
+        margin-left: -31px;
+        
+    }
+    .overlay{
+        min-width: 150%;
+    }
     .bio{
         margin: 1rem;
         background-color: white;
