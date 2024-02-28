@@ -151,7 +151,7 @@ section#hero {
         flex-wrap: wrap;
         margin-top: 32px;
         background-color: var(--overlay);
-        height: 250%;
+        height: 265%;
     }
     #Research p{
         background-color: white;
