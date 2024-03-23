@@ -123,11 +123,7 @@ section#hero {
     margin: 1rem;
 }
 
-#hero2 img{
-    border: 1px solid;
-    height: 300px;
-    width: 230px;
-}
+
 
 @media (min-width:320px){
     body{
@@ -138,9 +134,12 @@ section#hero {
     }
     #hero2 img{
         margin-left: -15px;
+        height: 200px;
+        width: 130px;
     }
     .name{
         margin-left: -27px;
+        width: 120px;
     }
     
     .bio{
@@ -176,6 +175,11 @@ section#hero {
         border: 1px solid;
         padding: 10px;
     }
+    #hero2 img{
+        border: 1px solid;
+        height: 300px;
+        width: 230px;
+    }
 
     #Research{
         display: grid;
@@ -187,6 +191,8 @@ section#hero {
         grid-template-columns: 33% 33% ;
         grid-template-areas: "two one one ";
     }
+
+    
 
     #Research > p {
         background: white;
