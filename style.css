@@ -153,7 +153,7 @@ section#hero {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        margin-top: 160px;
+        margin-top: 155px;
         background-color: var(--overlay);
         height: 110%;
     }
