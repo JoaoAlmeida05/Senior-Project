@@ -163,7 +163,7 @@ section#hero {
         flex-wrap: wrap;
         margin-top: 146px;
         background-color: var(--overlay);
-        height: 200%;
+        height: 400%;
     }
     #Research p{
         background-color: white;
