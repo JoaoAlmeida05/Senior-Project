@@ -153,8 +153,8 @@ section#hero {
         margin: 10px;
         padding: 10px;
     }
-    .one, .two, .three, .four{
-        height: auto;
+    .one{
+        height: 600px;
     }
    
 }
