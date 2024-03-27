@@ -153,6 +153,9 @@ section#hero {
         margin: 10px;
         padding: 10px;
     }
+    .one, .two, .three, .four{
+        max-height: auto;
+    }
    
 }
 
@@ -213,6 +216,17 @@ section#hero {
         grid-area: two;
         margin-left: 1rem;
         max-width: 500px;        
+    }
+    .three{
+        grid-area: three;
+        margin-left: 1rem;
+        max-width: 500px; 
+    }
+    .four{
+        grid-area: four;
+        margin-left: 1rem;
+        max-width: auto; 
+        max-height: 35px;
     }
 }
 
