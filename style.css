@@ -183,7 +183,7 @@ section#hero {
         justify-content: center;
         column-gap: 8rem;
      /*   margin-top: 166px;
-*/      margin-top: 166px;
+*/      margin-top: 66px;
         grid-template-rows: 2rem;
         grid-template-columns: 33% 33% ;
         grid-template-areas: "two one one";
