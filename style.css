@@ -94,6 +94,14 @@ section#hero div.container {
     height: auto;
     margin-inline: auto;
 }
+#Research{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 146px;
+    background-color: var(--overlay);
+    height: 110%;
+}
 
 section#hero {
     border: 1px solid black;
