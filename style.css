@@ -155,7 +155,7 @@ section#hero {
         flex-wrap: wrap;
         margin-top: 32px;
         background-color: var(--overlay);
-        height: 100%;
+        height: 110%;
     }
     #Research p{
         background-color: white;
@@ -189,7 +189,7 @@ section#hero {
         margin-top: 166px;
         grid-template-rows: 2rem;
         grid-template-columns: 33% 33% ;
-        grid-template-areas: "two one one ";
+        grid-template-areas: "two one one";
     }
 
     
