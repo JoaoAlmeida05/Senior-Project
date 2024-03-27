@@ -25,17 +25,6 @@ body {
     }
 }
 
-.header {
-    height: auto;
-    width: 100%;
-    display: flex;
-    gap: 5%;
-    justify-content: center;
-    align-items: center;
-    position: sticky;
-    top: 0;
-}
-
 header ul {
     list-style: none;
     display: flex;
@@ -194,12 +183,22 @@ section#hero {
         align-content: start;
         justify-content: center;
         column-gap: 8rem;
-        margin-top: 100px;
+        margin-top: 166px;
         grid-template-rows: 2rem;
         grid-template-columns: 33% 33% ;
         grid-template-areas: "two one one";
     }
 
+    .header {
+        height: auto;
+        width: 100%;
+        display: flex;
+        gap: 5%;
+        justify-content: center;
+        align-items: center;
+        position: sticky;
+        top: 0;
+    }
     
 
     #Research > p {
