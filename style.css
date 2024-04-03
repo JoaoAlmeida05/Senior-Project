@@ -187,8 +187,8 @@ section#hero {
         border: 1px solid;
         margin: 10px;
         padding: 10px;
-        max-width: 50% ;
-        font-size: larger;
+        font-size: large;
+        min-width: 88%;
 }
     
 
@@ -262,6 +262,9 @@ section#hero {
         max-height: 35px;
     }
 }
+    #Content p{
+        max-width: 50% ;
+    }
 
 
 
