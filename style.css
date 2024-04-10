@@ -323,14 +323,11 @@ section#hero {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         align-items: start;
+        max-width: auto;
+        max-height: auto;
      }
 
-     #Research {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: auto;
-        gap: unset;
-        grid-template-areas: unset;
-     }
+    
 
      #Research p {
         width: 100%;
