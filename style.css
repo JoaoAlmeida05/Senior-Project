@@ -332,9 +332,9 @@ section#hero {
      #Research p {
         width: 100%;
         height: auto;
-        max-width: unset;
+        max-width: fit-content;
      }
-
+    
      /* paragraph tags are normally 1rem which is 16px which is standard 
         to make it bigger, we want to increase font-size: 1.25rem;
      */
