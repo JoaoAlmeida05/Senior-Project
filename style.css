@@ -345,6 +345,6 @@ section#hero {
 }
     
 
-#header li:hover{
+#header a:hover{
     font-size: 3rem;
 }
