@@ -25,6 +25,7 @@ ul{
     display: flex;
     justify-content: center;
     column-gap: 2rem;
+    padding-top: 4rem;
 }
 
 /*everything about the Hero*/
@@ -187,26 +188,3 @@ h1{
   width: 100%
 }
 
-
-
-
-  
-
-
-.one .text {
-    position:relative;
-    bottom:30px;
-    left:0px;
-    visibility:hidden;
-}
-
-
-
-
-.txt1{
-    display: none;
-}
-
-.txt1:hover{
-    display: inline-block;
-}
