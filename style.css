@@ -1,350 +1,190 @@
-@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Young+Serif&display=swap');
-
-:root {
-    --titles-font: "Young Serif", serif;
-    --rest-font: "Roboto", sans-serif;
-    --overlay: #0000004f;
-    --second: #3333334f;
-}
-
-html,
-body {
-    width: 100%;
-    height: auto;
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
-}
-
-main section {
-    width: 100%;
+html, body{
     height: 100%;
+    width: 100%;
+    
 }
 
-p {
-    font-size: 1rem;
-}
 
-h4 {
-    font-size: 1.25rem;
-    font-weight: 500;
-}
-h3 {
-    font-size: 1.50rem;
-    font-weight: 500;
-}
-h2 {
-    font-size: 1.75rem;
-    font-weight: 600;
-}
-h1 {
-    font-size: 2rem;
-    font-weight: 600;
-}
 
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
 
-body {
-    position: relative;
-}
 
-header {
+/*Everything about the header*/
+
+#header{
+    background-color: white;
+    height: fit-content;
+    width: 100%;
+    color: black;
+    font-size: 1.5rem;
     position: sticky;
-    top: 0;
-    background-color: white;
+    
 }
 
-header ul {
+ul{
+    list-style-type: none;
     display: flex;
     justify-content: center;
-    gap: 1rem;
-    padding: 0.75rem 1rem;
-    border-bottom: solid 1px;
+    column-gap: 2rem;
 }
 
-header ul a {
-    text-decoration: none;
-    color: black;
-    text-decoration: underline;
+/*everything about the Hero*/
+
+
+h1{
+    margin-top: -36rem;
+    margin-left: 40rem;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
 }
 
-header ul li {
-    color: black;
-}
 
-.container {
-    font-family: var(--titles-font);
-    background-position: 80%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: start;
-    align-content: flex-start;
-    gap: 5%;
-    width: 100%;
-    height: 100%;
-}
-
-section#hero {
-    position: relative;
-    width: 100%;
+#hero img{
+    width: 100vw;
     height: 100vh;
+    z-index: 1;
+}
+
+
+/*everyhing about the content*/
+
+
+#content{
+    color: black;
+    margin-top: 45rem;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.container{
+    display: grid;
+    max-width: 100vw;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    background-color: rgba(255, 255, 255, 0.8);
+    overflow-x: hidden;
+    height: fit-content;
+}
+
+
+.topics{
+    margin-top: -5rem;
+    color: white;
     display: flex;
-    flex-direction: column;
-
+    justify-content: start;
+    column-gap: 24rem;
 }
 
-section#hero img.bg {
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    z-index: -10;
+.second{
+    padding-top: -3rem;
+}
+.third{
+    margin-top: -2rem;
 }
 
-section#hero div.overlay {
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    background-color: var(--overlay);
-    z-index: -5;
+.one,.two,.three,.four,.five{
+    overflow-x: hidden;
 }
 
-section#hero div.container {
-    position: relative;
-    z-index: 0;
+
+.one:hover, .two:hover, .three:hover, .four:hover, .five:hover{
+    animation: shake 0.5s;
+}
+
+
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+/*Everything about the Resources*/
+
+
+#resources{
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    margin: 1rem;
-    width: 100%;
-    height: auto;
-    margin-inline: auto;
 }
 
 
-section#hero {
-    border: 1px solid black;
+.square{
+    font-size: 2rem;
+    height: 31rem;
+    width: 50rem;
+    padding-top: 6rem;
 }
 
-#hero h1, h2{
-    background-color: white;
-    border: 1px solid;
-    padding: 10px;
-}
 
-.box {
-    margin: 1rem;
-}
-
-#sec1 #header {
-    font-family: var(--rest-font);
-}
-
-.hero2 .flex{
-    
+.square ul{
     display: flex;
-    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+}
+
+.square a{
+    width: 50rem;
+    border-bottom: solid 1px;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+
+.square a:hover{
+    border-bottom: solid 2px red;
+}
+/*Everything about the Bio*/
+
+
+#bio{
+    margin-top: 25rem;
+    background-color: rgba(128, 128, 128, 0.162);
+    display: flex;
     justify-content: center;
-    gap: 2rem;
-    text-decoration: underline;
-    margin: 1rem;
 }
 
 
 
-@media (min-width:320px){
-    body{
-        max-width: 100vw;
-    }
-   
-    .hero2 img{
-        margin-left: -15px;
-        height: 180px;
-        width: 140px;
-    }
-    .name{
-        margin-left: -27px;
-        width: 120px;
-    }
-    
-    .bio{
-        margin: 1rem;
-        background-color: white;
-        border: 1px solid;
-        padding: 10px;
-    }
-    
-    #Research{
-        display: flex;
-        flex-wrap: wrap;
-        background-color: var(--second);
-        height: auto;
-    }
-    #Research p{
-        background-color: white;
-        border: 1px solid;
-        margin: 10px;
-        padding: 10px;
-    }
-    .one{
-        height: auto;
-    }
-    .two{
-        height: auto;
-        margin-top: -500px;
-    }
-    .three{
-        height: auto;
-    }
-    .four{
-        height: auto;
-    }
-   
-    #Content{
-        display: flex;
-        flex-wrap: wrap;
-        background-color: var(--second);
-        height: auto;
-        justify-content: center;
-        align-items: end;
-        
-    }
-    #Content p{
-        background-color: white;
-        border: 1px solid;
-        margin: 10px;
-        padding: 10px;
-        font-size: large;
-        min-width: 88%;
-}
-}    
 
-@media (min-width:720px){
-
-    .bio{
-        margin-left: 480px;
-        max-width: 400px;
-        background-color: white;
-        border: 1px solid;
-        padding: 10px;
-    }
-    .hero2 img{
-        border: 1px solid;
-        height: 300px;
-        width: 230px;
-    }
-
-    #Research{
-        display: grid;
-        align-content: start;
-        justify-content: center;
-        column-gap: 8rem;
-        grid-row: 2;
-        grid-column-start: end;
-        grid-column: auto;
-        grid-template-rows: auto;
-        grid-template-columns: 33% 33% ;
-        grid-template-areas:
-         "one two"
-         "three four";
-    }
-
-    #header {
-        height: auto;
-        width: 100%;
-        display: flex;
-        gap: 5%;
-        justify-content: center;
-        align-items: center;
-        position: sticky;
-        top: 0;
-        z-index: 999;
-    }
-    
-
-    #Research > p {
-        background: white;
-        border: 1px solid;
-        padding: 10px;
-    }
-
-    .one{
-        grid-area: one;
-        max-width: 450px;
-    }
-    .two{
-        grid-area: two;
-        margin-left: 1rem;
-        max-width: 500px;        
-    }
-    .three{
-        grid-area: three;
-        margin-left: 1rem;
-        max-width: 500px; 
-    }
-    .four{
-        grid-area: four;
-        margin-left: 1rem;
-        max-width: auto; 
-        max-height: 35px;
-    }
-
-    
+.bio img{
+    width: 20rem;
+    border-radius: 2rem;
 }
 
-@media only screen and (min-width: 1024px ){
-     .hero2 {
-        display: flex;
-        justify-content: center;
-        max-width: 64rem;
-        align-items: center;
-        margin: 0 auto;
-        gap: 4rem;
-        flex-grow: 0.6;
-     }
-
-     .hero2 .bio {
-        max-width: 20rem;
-        margin-inline: auto;
-        height: fit-content;
-     }
-
-     #Content,
-     #Research {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        align-items: start;
-     }
-
-     #Research {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: auto;
-        gap: unset;
-        grid-template-areas: unset;
-     }
-
-     #Research p {
-        width: 100%;
-        height: auto;
-        max-width: unset;
-     }
-
-     /* paragraph tags are normally 1rem which is 16px which is standard 
-        to make it bigger, we want to increase font-size: 1.25rem;
-     */
-
-     #Content p {
-        font-size: 1.25rem;
-     }
+.bio{
+    max-width: 50rem;
+    display:flex ;
+    margin-top: 5rem;
+    column-gap: 3rem;
+    font-size: 1.5rem;
+    padding-bottom: 5rem;
 }
-    
+
+
+/*Everything about the Footer*/
+
+
+#footer img{
+    height:15vh ;
+    width: 100vw;
+}
+
+
+/* sticky header*/
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
 
